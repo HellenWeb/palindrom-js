@@ -10,7 +10,7 @@ let uuid = require('uuid')
 
 // ** Create function "pal" with parameter "n"
 
-let pal = (n = 1) => n === [...n].reverse().join("") 
+let pal = (n = 1) => n === [...n].reverse().join("")  // Doing comparison
 
 console.log(pal('ollo'))
 
